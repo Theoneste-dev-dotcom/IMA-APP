@@ -1,0 +1,105 @@
+body{
+    background-image:url(sup.png);
+    background-attachment: fixed;
+}    
+.form{
+    background:linear-gradient(to left top, rgb(36, 213, 36), rgb(74, 102, 106), rgb(6, 195, 151));
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 12px;
+}
+input,textarea{
+    margin-bottom: 6px;
+    padding:10px;
+    width:14rem;
+    border-radius: 10px;
+}
+.content{
+    padding:8px;
+    margin-left:6rem;
+ 
+}
+h2{
+    position: sticky;
+    top:5rem;
+    bottom:2rem;
+    text-align: center;
+    color:rgb(51, 32, 174);
+}
+
+
+label{
+    margin-bottom: 8px;
+}
+label,input{
+    display: block;
+}
+button{
+    align-items: center;
+    background-color: green;
+    padding: 12px;
+    width:5rem;
+    border-radius:10px;
+    position: relative;
+    left:8em;
+}
+
+.index{
+    text-decoration: none;
+    color:rgb(12, 235, 198);
+    position: absolute;
+    left:25rem;
+    top:39.9rem;
+    background-color: rgb(21, 44, 218);
+    padding: 10px;
+    border-radius: 7px;
+
+}
+
+.nav_bar{
+    position: sticky;
+    background-color: rgb(238, 244, 242);
+    overflow: hidden;
+    border-radius:10px ;
+    height:15vh;
+    padding:14px;
+    margin:0px;
+    top:0;
+    box-shadow: 0px 16px 1px rgb(95, 99, 37);
+
+    /* Safari */
+   
+}
+
+.nav_bar a{
+float:right;
+position: relative;
+top:12px;
+text-decoration: none;
+padding:14px;
+
+text-align: center;
+}
+.nav_bar a:hover{
+   background-color: green; 
+   font-size:1.4rem;
+   color:white;
+
+}
+.nav_bar a{
+    text-align:center;
+    height:7vh;
+}
+a:active{
+background-color: beige;
+font-size: 20px;
+color:blue;
+}
+img{
+    position:relative;
+    top:8px;
+    height:13vh;
+    left:10px;
+    width:24vw;
+}

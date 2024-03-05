@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <title>Add product</title>
+</head>
+<body>
+    <div class="nav_bar">
+        <img src="fav.png" alt="logo">     
+     <a href="about.html">About Us</a>
+     <a href="history.html">History</a>
+     <a href="contact.html">Contact</a>
+     <a href="home.html">Home</a>
+         </div>
+         <section class="all">
+    <h2>Add product</h2>
+    <div class="form">
+
+    <form action="" autocomplete="off" method="post">
+        <div class="content">
+ <label for=""> Product_name</label>
+ <input type="text" id="product_name" value = "">
+</div>
+<div class="content">
+ <label for=""> Product_weight</label>
+ <input type="text" id="weight" value = "">
+ </div>
+<div class="content">
+ <label for=""> Product_certification_details</label>
+ <textarea  id="certification" cols="20" rows="5" value=""></textarea>
+</div>
+
+<div class="content">
+ <label for=""> Product_price</label>
+ <input type="text" id="price" value = "">
+</div>
+
+<div class="content">
+ <label for="">Introductory_date</label>
+ <input type="data" id="int_date" value="">
+</div>
+
+<div class="content">
+ <label for=""> Expry_date</label>
+ <input type="text" id="exp_date" value = "">
+</div>
+
+ <button type="button" onclick="submitProduct('insert')">SUPPLY</button>
+</div>
+    </form>
+
+
+    <a class="index" href="index.php"> GO TO INDEX PAGE</a>
+    <?php require "script.php";?>
+</section>
+</body>
+</html>
